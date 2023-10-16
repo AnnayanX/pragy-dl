@@ -4,8 +4,8 @@ on:
     branches:
       - master
     paths:
-      - "yt_dlp/**.py"
-      - "!yt_dlp/version.py"
+      - "pragy_dl/**.py"
+      - "!pragy_dl/version.py"
 concurrency:
   group: release-nightly
   cancel-in-progress: true
